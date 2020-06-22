@@ -270,7 +270,8 @@ class TimePickerClockDelegate extends TimePicker.AbstractTimePickerDelegate {
         initialize(currentHour, currentMinute, mIs24Hour, HOUR_INDEX);
     }
 
-    private void toggleRadialPickerMode() {
+    @Override
+    public void toggleRadialPickerMode() {
         if (mRadialPickerModeEnabled) {
             mRadialTimePickerView.setVisibility(View.GONE);
             mRadialTimePickerHeader.setVisibility(View.GONE);

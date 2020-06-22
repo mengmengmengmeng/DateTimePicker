@@ -432,6 +432,11 @@ class TimePickerSpinnerDelegate extends TimePicker.AbstractTimePickerDelegate {
         event.getText().add(selectedDateUtterance);
     }
 
+    @Override
+    public void toggleRadialPickerMode() {
+
+    }
+
     /** @hide */
     @Override
     public View getHourView() {

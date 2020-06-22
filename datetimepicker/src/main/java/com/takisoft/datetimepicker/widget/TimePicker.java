@@ -420,6 +420,8 @@ public class TimePicker extends FrameLayout {
 
         void onPopulateAccessibilityEvent(AccessibilityEvent event);
 
+        void toggleRadialPickerMode();
+
         /**
          * @hide
          */
@@ -571,6 +573,10 @@ public class TimePicker extends FrameLayout {
                 }
             };
         }
+    }
+
+    public void toggle() {
+        mDelegate.toggleRadialPickerMode();
     }
 
     @TargetApi(Build.VERSION_CODES.O)

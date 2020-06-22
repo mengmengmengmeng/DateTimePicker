@@ -26,7 +26,6 @@ import android.icu.text.DisplayContext;
 import android.icu.text.SimpleDateFormat;
 import android.os.Build;
 import android.os.Parcelable;
-import androidx.annotation.Nullable;
 import android.text.format.DateUtils;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
@@ -36,6 +35,8 @@ import android.view.ViewGroup;
 import android.view.accessibility.AccessibilityEvent;
 import android.widget.TextView;
 import android.widget.ViewAnimator;
+
+import androidx.annotation.Nullable;
 
 import com.takisoft.datetimepicker.R;
 import com.takisoft.datetimepicker.util.DateFormatFix;
